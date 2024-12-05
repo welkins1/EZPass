@@ -11,4 +11,4 @@ The only hiccup I had while coding this program was implementing the quit functi
 Even with that "minor" hiccup, I still enjoyed making this program. I'm currently working on EZPass2, which can be invoked directly from the command line using the main method within String args[]. My goal is to make it so a user could just type something like java EZPass2 15 x x x x and generate a strong password with specific parameters in the blink of an eye.
 
 # ⚙️ Setup 
-You can run this program by downloading the .java file and running java EZPass.java in the directory you installed it in. 
+You can run this program by downloading the .java file and running java ```EZPass.java``` in the directory where you installed it. 
