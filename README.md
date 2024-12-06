@@ -1,4 +1,4 @@
-# EZPass
+# EZPass 🔒
 
 This is a program that I created to generate strong passwords with ease. I got frustrated with always having to think of passwords or visit a website to create a password that meets a specific password complexity requirement, so I decided to make EZPass, which allows a user to generate a complex password quickly from a terminal.
 
