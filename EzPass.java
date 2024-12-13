@@ -1,5 +1,4 @@
 
-
 //wildcard import 
 import java.util.*;
 
@@ -201,7 +200,27 @@ public class EzPass {
             }                                //fills indexes with random special chars
         }
 
-        System.out.print("\nYour password is: ");
+        //Simulates a generation of the password 
+        
+        System.out.print("\nGenerating Password"); 
+
+        for (int i = 0; i < 5; i++) {
+
+                //The try-catch is required to use Thread.sleep
+                try {
+                    //Loading time in miliseconds
+                    Thread.sleep(500);
+                    //printed to the console based on i < 5
+                    System.out.print(".");
+
+                } catch (InterruptedException error) {
+
+                }
+
+            }
+            
+        System.out.print("\n\nYour password is: ");
+        
         printArray(password); //prints password array by calling printArray()
         System.out.print("\n\nWould you like to generate another password? Y/N ");
         
