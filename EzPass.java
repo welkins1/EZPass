@@ -37,7 +37,7 @@ public class EzPass {
         
         //loops until inputValid is true
         while (!inputValid) {
-            System.out.print("\nPlease enter a password length between 6 and 30 or 'q' to quit: ");
+            System.out.print("\nPlease enter a password length between 6 and 30 or q to quit: ");
             size = input.next(); // Get the next input token
 
             // check if the user entered "q" (case insensitive)
