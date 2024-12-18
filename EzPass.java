@@ -186,7 +186,7 @@ public class EzPass {
 
         if (AddNumbers.equals("N")
                 && AddLetters.equals("N") 
-                && AddSpecialChars.equals("Y")) { //fills entire password array with special characters
+                && AddSpecialChars.equals("Y")) { //fills entire password array with special chars
             for (int i = 0; i < size; i++) {
                 password[i]
                         = GetChars.charAt((randomIntBetween(62, 71)));
