@@ -1,3 +1,5 @@
+//Programmer Name: Austin
+//GitHub Username: welkins1
 
 //wildcard import 
 import java.util.*;
