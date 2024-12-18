@@ -149,7 +149,7 @@ public class EzPass {
 
         
         if (AddLetters.equals("Y")) {
-            //for loop fills password[] with random uppercase and lowercase
+            //for loop fills password[] with random uppercase and lowercase chars
            
             for (int i = 0; i < size; i++) {
                 password[i] = GetChars.charAt((randomIntBetween(0, 51)));
