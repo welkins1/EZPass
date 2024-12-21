@@ -128,13 +128,10 @@ public class EzPass {
                 + //62-71 - charAt index for special characters 
                 "!@#$%^&*()";
 
-        
-        System.out.println("Welcome to Ez Pass! The easy password generator!");
-
-       
-        boolean GenerateAnother = true; 
-        //used for looping program to generate another password 
-        while (GenerateAnother) {
+         boolean GenerateAnother = true; 
+         while (GenerateAnother) {  //used for looping program to generate another password 
+             
+        System.out.println("Welcome to Ez Pass! The easy password generator!"); 
             
             //size's value is based on call to inputCheck()
         int size = inputCheck();
